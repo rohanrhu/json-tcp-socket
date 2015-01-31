@@ -1,6 +1,11 @@
 # json-tcp-socket
 JSON messaging over TCP sockets for node.js
 
+### Install with npm
+```
+npm install json-tcp-socket
+```
+
 ### Without TLS
 
 Server:

@@ -1,6 +1,6 @@
 {
   "name": "json-tcp-socket",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "JSON messaging over TCP sockets",
   "main": "json-tcp-socket.js",
   "directories": {
