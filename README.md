@@ -1,7 +1,7 @@
 # json-tcp-socket
 JSON messaging over TCP sockets for node.js
 
-###Without TLS
+### Without TLS
 
 Server:
 
@@ -193,5 +193,5 @@ socket.connect({
 });
 ```
 
-##License
+## License
 MIT
