@@ -52,7 +52,7 @@ console.log('Server listening 0.0.0.0:5055');
 Client:
 
 ```javascript
-var JSONTCPSOCKET = require('json-tcp-socket.js');
+var JSONTCPSOCKET = require('json-tcp-socket');
 
 var JSONTCPSOCKET = new JSONTCPSOCKET({tls: false});
 var socket = new JSONTCPSOCKET.Socket();
@@ -99,7 +99,7 @@ Server:
 
 ```javascript
 var fs = require('fs');
-var JSONTCPSOCKET = require('../../json-tcp-socket.js');
+var JSONTCPSOCKET = require('json-tcp-socket');
 
 var JSONTCPSOCKET = new JSONTCPSOCKET({tls: true});
 var server = new JSONTCPSOCKET.Server({
@@ -148,7 +148,7 @@ console.log('Server listening 0.0.0.0:5055 over TLS');
 Client:
 
 ```javascript
-var JSONTCPSOCKET = require('../../json-tcp-socket.js');
+var JSONTCPSOCKET = require('json-tcp-socket');
 
 var JSONTCPSOCKET = new JSONTCPSOCKET({tls: true});
 var socket = new JSONTCPSOCKET.Socket();
