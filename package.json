@@ -1,0 +1,29 @@
+{
+  "name": "json-tcp-socket",
+  "version": "1.0.0",
+  "description": "JSON messaging over TCP sockets",
+  "main": "json-tcp-socket.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rohanrhu/json-tcp-socket"
+  },
+  "keywords": [
+    "json",
+    "tcp",
+    "socket",
+    "net",
+    "tls"
+  ],
+  "author": "Oğuzhan Eroğlu <rohanrhu2@gmail.com> (http://oguzhaneroglu.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rohanrhu/json-tcp-socket/issues"
+  },
+  "homepage": "https://github.com/rohanrhu/json-tcp-socket"
+}
